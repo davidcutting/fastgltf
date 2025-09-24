@@ -1,0 +1,21 @@
+.{
+    .name = .fastgltf,
+    .version = "0.0.0",
+    .fingerprint = 0xd73d8d05b59f26f4, // Changing this has security and trust implications.
+    .minimum_zig_version = "0.15.1",
+    .dependencies = .{
+        .simdjson = .{
+            .url = "https://github.com/simdjson/simdjson/archive/refs/tags/v4.0.6.tar.gz",
+            .hash = "N-V-__8AAAScZwF-hdHMdW6Rrlx9cnnyNLCgXKukt5XLaOd0",
+        },
+    },
+
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        // For example...
+        //"LICENSE",
+        //"README.md",
+    },
+}

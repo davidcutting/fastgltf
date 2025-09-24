@@ -53,3 +53,6 @@ docs/xml/
 docs/Doxyfile
 docs/conf.py
 docs/.venv/
+
+# Zig
+.zig-cache
